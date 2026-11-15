@@ -1,0 +1,214 @@
+{
+  "schema_version": 1,
+  "status": "accepted",
+  "checked_utc": "2026-11-15T21:34:46.290123+00:00",
+  "pr_number": 4,
+  "pr_url": "https://github.com/kanekikenny/sdsc6021-synthetic-data-toolkit/pull/4",
+  "author": "blacksheep429",
+  "reviewed_head_sha": "e29655f329065b66d75e5e40e2d2127674200243",
+  "operator": "Codex on A machine under user direction",
+  "scope": "Stored-prediction analysis and review only; no model fitting, GPU inference, G4 rerun or human validation.",
+  "scripts_rerun": [
+    {
+      "script": "06_g4_prediction_audit.py",
+      "sha256": "54856d7d6ce49f4c33e47e27cc50f9fe63f82d8595381a05f69ec6c666c1ae5c",
+      "exit_code": 0,
+      "log_sha256": "233dccf40c915faa2d21e9eefd89e3eebfa21f5052488a12a756a101ebd4bc9f"
+    },
+    {
+      "script": "07_g4_stats_audit.py",
+      "sha256": "5dfd69c10a37999d62a2fa45c0c24442b4d0ce0e96362c899418bd05b073cccc",
+      "exit_code": 0,
+      "log_sha256": "c8b5d06dc13cbd6326327583f2c978ef199e248286d26df128f311b16ed62155"
+    },
+    {
+      "script": "08_g4_per_class.py",
+      "sha256": "782be26f3f4126c909e5c6e05338142edce005690e7bbba8effaad78b3e744f2",
+      "exit_code": 0,
+      "log_sha256": "20805f2b266c264510f0597aed5138d13bc91eaee8b4d0d39217df10faff952c"
+    },
+    {
+      "script": "12_g4_cost_analysis.py",
+      "sha256": "35ea120f0ccdb77d5930dc81c65bd03d3800edd409baa63d59039075b26495db",
+      "exit_code": 0,
+      "log_sha256": "607324fbd396a7585ccef9f9c11c7f9ea5844198bdee24c31955e3ec6cf1ddd4"
+    },
+    {
+      "script": "15_training_fairness_audit.py",
+      "sha256": "95db0897ead448c296da8c52849945928878831951dbb773b2fba203e50d54c1",
+      "exit_code": 0,
+      "log_sha256": "06901f226f65fecdcc7d0397ebaeaf7210503d2ca3da3145e7fd14f0006eb3fa"
+    },
+    {
+      "script": "10_g4_accuracy_plot.py",
+      "sha256": "1b6b4a137c89b8f3b13a29fb8fd10fa2dc8c598e7977c7c215112f9a07ff306a",
+      "exit_code": 0,
+      "log_sha256": "22ac258f904ca299484248fbdd3ba1891186a5c7c010bfdeeaf203c811fc08be"
+    },
+    {
+      "script": "11_g4_paired_gain_plot.py",
+      "sha256": "d8f07cede4bb3892e8bb26fcdbc8ae261f2ca8ec9007d30d3c6594f4d3c3e25a",
+      "exit_code": 0,
+      "log_sha256": "f1481c340526481f70ee200aefbc11babdd434ca7528740feae2923a64e5de28"
+    },
+    {
+      "script": "13_g4_direct_comparisons.py",
+      "sha256": "3da7711fb2b8110f01d72f11a8bf9a03e5a35f82fa73d7473a8d3a2afe789a8b",
+      "exit_code": 0,
+      "log_sha256": "3f23a776a58329d6a3696135af893c0b87ccfe4bc69f783cb16274a32cf720f0"
+    },
+    {
+      "script": "14_g4_per_class_gain_plot.py",
+      "sha256": "e1fd47aed264c901ea1b18958eae80e38fa928b3dd355131285708f0784bfa5f",
+      "exit_code": 0,
+      "log_sha256": "140b2c00aa007f94031ca136d85f41a4a5b40368986e14887cc054abb2891f99"
+    }
+  ],
+  "all_nine_exit_codes_zero": true,
+  "four_submitted_csv_tables_match_regenerated_values": [
+    "07_g4_summary.csv",
+    "08_g4_per_class.csv",
+    "12_g4_cost_summary.csv",
+    "13_g4_direct_comparisons.csv"
+  ],
+  "figures": [
+    {
+      "file": "10_g4_accuracy.png",
+      "submitted_sha256": "0120888e4b9e9c633c0ed5ee4c8da99d37b519743c329945081bba714c92c45f",
+      "regenerated_sha256": "2f3ef24f8b68b68933e6a60bd4f8b9ac4c4c55cb946c61d774207a7559caf866",
+      "submitted_shape": [
+        1005,
+        1779,
+        4
+      ],
+      "regenerated_shape": [
+        1005,
+        1779,
+        4
+      ],
+      "pixels_identical": true,
+      "visual_review": "Numeric labels, source values, units, plotted seed/mean/SD and readable layout inspected on all four submitted figures."
+    },
+    {
+      "file": "11_g4_paired_gain.png",
+      "submitted_sha256": "d5b057eeac852175399a2c49209db3f75604040bfba6fd8cc3c91e25bf17f13f",
+      "regenerated_sha256": "6882f5c55dd4883dbc5c2ec1cadcd0d38ec9054dfa93426af108f83e71da3c1f",
+      "submitted_shape": [
+        1005,
+        1779,
+        4
+      ],
+      "regenerated_shape": [
+        1005,
+        1779,
+        4
+      ],
+      "pixels_identical": true,
+      "visual_review": "Numeric labels, source values, units, plotted seed/mean/SD and readable layout inspected on all four submitted figures."
+    },
+    {
+      "file": "13_g4_direct_comparisons.png",
+      "submitted_sha256": "a71586971854d06f387d777ffda695a6adf0acb710d32ecd4db4a7d59d2e3aea",
+      "regenerated_sha256": "3c4481a3a8623dcfb9be5693b2a0e20b6ba166a2a11c09a1e882b678075a4022",
+      "submitted_shape": [
+        1124,
+        1979,
+        4
+      ],
+      "regenerated_shape": [
+        1124,
+        1979,
+        4
+      ],
+      "pixels_identical": true,
+      "visual_review": "Numeric labels, source values, units, plotted seed/mean/SD and readable layout inspected on all four submitted figures."
+    },
+    {
+      "file": "14_g4_per_class_gain.png",
+      "submitted_sha256": "c7b0cd8e861f1f7dcbbd4a00bab47045e4b33106e61db345b5fda9720b5fa4b2",
+      "regenerated_sha256": "a42dda343398f6d4f86afd5780cb231a915f969de0be4012e0f479c5a3cf7aec",
+      "submitted_shape": [
+        1401,
+        2175,
+        4
+      ],
+      "regenerated_shape": [
+        1401,
+        2175,
+        4
+      ],
+      "pixels_identical": true,
+      "visual_review": "Numeric labels, source values, units, plotted seed/mean/SD and readable layout inspected on all four submitted figures."
+    }
+  ],
+  "reports_reviewed": [
+    "report/C_results_evaluation.md",
+    "shared/synthetic_v2/c_evaluation/README.md"
+  ],
+  "frozen_experimental_sources_models_inputs_predictions_unchanged": true,
+  "analysis_plot_dependencies_isolated": true,
+  "plot_wheels": [
+    {
+      "name": "matplotlib",
+      "version": "3.11.2",
+      "filename": "matplotlib-3.11.2-cp312-cp312-win_amd64.whl",
+      "sha256": "c5c1c68ee401fc98271263410f0e5ce88285abacf7627132914e8adf3d70ff43"
+    },
+    {
+      "name": "contourpy",
+      "version": "1.4.0",
+      "filename": "contourpy-1.4.0-cp312-cp312-win_amd64.whl",
+      "sha256": "6e697d94e69f499ff6bebb899cae97a58d5d14f0e1fe9568b43a0248d2f9af8c"
+    },
+    {
+      "name": "cycler",
+      "version": "0.12.1",
+      "filename": "cycler-0.12.1-py3-none-any.whl",
+      "sha256": "85cef7cff222d8644161529808465972e51340599459b8ac3ccbac5a854e0d30"
+    },
+    {
+      "name": "fonttools",
+      "version": "4.68.0",
+      "filename": "fonttools-4.68.0-cp312-cp312-win_amd64.whl",
+      "sha256": "fedc183bdbc3fdbfbdca26e0e04566d089cbb404712509a4e824608e9304cc77"
+    },
+    {
+      "name": "kiwisolver",
+      "version": "1.5.1",
+      "filename": "kiwisolver-1.5.1-cp312-cp312-win_amd64.whl",
+      "sha256": "06a6917674de9e0fe3f66f5430787f59a9f2ddb64af9b714eaec547e29ef5c19"
+    },
+    {
+      "name": "pyparsing",
+      "version": "3.3.3",
+      "filename": "pyparsing-3.3.3-py3-none-any.whl",
+      "sha256": "ece8c00a69cf01b45d0b1dedabb469c90d8caf996d4fda40f147627a122849a4"
+    },
+    {
+      "name": "python-dateutil",
+      "version": "4.0.0",
+      "filename": "python_dateutil-4.0.0-py3-none-any.whl",
+      "sha256": "a5e246f79eb80475e691bf93862cead98decd8a498cf53ba0516fcdc0f50dc1c"
+    },
+    {
+      "name": "tzdata",
+      "version": "2026.6",
+      "filename": "tzdata-2026.6-py2.py3-none-any.whl",
+      "sha256": "0a10eec6e13ef16b627fabed9a5f2ba61a62b1c67f327305f4e7e412a70b4aec"
+    }
+  ],
+  "notes": [
+    "Submitted SDs are sample SD across three paired seeds, not confidence intervals; no significance claims accepted.",
+    "CLIP zero-shot 88.21% is a single reference and is stronger than all trained heads in this case.",
+    "Recorded stage total 48.14 minutes excludes setup/development/human/transfer time; generation pool charged once.",
+    "Per-class gains are descriptive; no causal coverage/diversity claim.",
+    "Input archive SHA256 matches published release; full acceptance rerun uses Python 3.12.14, separately from C reported Python 3.12.15.",
+    "Source/report text line endings normalized to repository LF policy at integration; no analytical logic or submitted numeric outputs changed.",
+    "Summary CSV line endings normalized to LF at integration; numeric cell contents unchanged."
+  ],
+  "remaining": [
+    "Two-person human label audit",
+    "Non-author usability trial",
+    "Final report/slides integration, identities and attendance"
+  ]
+}

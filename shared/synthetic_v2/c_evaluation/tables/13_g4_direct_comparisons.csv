@@ -1,0 +1,5 @@
+comparison,condition_a,condition_b,seed_0_delta_pp,seed_1_delta_pp,seed_2_delta_pp,mean_delta_pp,sample_sd_pp
+CLIP vs Random (50),clip_50,random_50,-0.01,0.18,0.43,0.2,0.2207
+CLIP vs Random (150),clip_150,random_150,0.1,0.17,0.34,0.2033,0.1234
+150 vs 50 (Random),random_150,random_50,0.06,-0.2,0.07,-0.0233,0.1531
+150 vs 50 (CLIP),clip_150,clip_50,0.17,-0.21,-0.02,-0.02,0.19

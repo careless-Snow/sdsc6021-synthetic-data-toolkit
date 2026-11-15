@@ -1,0 +1,6 @@
+phase,stage,seconds,minutes
+G3,SD1.5 generation,2551.3117,42.5219
+G3,CLIP selection,39.9722,0.6662
+G3,ResNet features,69.5259,1.1588
+G3,Classifier training,8.4178,0.1403
+G4,Final evaluation,219.3627,3.656

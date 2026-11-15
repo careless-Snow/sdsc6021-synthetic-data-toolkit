@@ -1,0 +1,6 @@
+condition,mean_accuracy_pct,sd_accuracy_pct,paired_gain_pp,sd_gain_pp
+real_only,71.44,0.3143,0.0,0.0
+random_50,75.08,0.737,3.64,0.8347
+clip_50,75.28,0.7627,3.84,0.7727
+random_150,75.0567,0.5845,3.6167,0.6901
+clip_150,75.26,0.5769,3.82,0.6245

@@ -2,7 +2,7 @@
 
 正式评估已在 A 的 RTX 5070 Ti Laptop GPU 上完成。评估运行 `20261115T133443_199162Z`，执行代码 `26e107feba6c4c4c5f447f84cada707e140d738c`；实验源码和配置与原冻结版本一致，15 个训练模型及其封存清单均未改动。
 
-这次交接包含正式预测和工程校验。C 的独立统计、图表及解释仍待完成；两人标签抽查和非作者试用也尚未进行。唯一实验规则仍见根目录 agent.md，实际分工与进度见 progress.md。
+这次交接包含正式预测和工程校验。C 的独立统计、四图四表及英文解释现已验收，见 [C 结果入口](../c_evaluation/README.md)和[验收记录](../audits/c_pr4_acceptance.json)；两人标签抽查和非作者试用仍未进行。唯一实验规则仍见根目录 agent.md，实际分工与进度见 progress.md。ZIP 内的状态描述保留其原始交接时刻，不改写原文件。
 
 `models/frozen.json` 的未评估标记描述 G3 封存时刻；保持该文件原字节以验证封存哈希。当前正式测试状态以本次 report.json、evaluation/latest.json 和验证记录为准。现有 summarize 的终端返回字段 test_evaluated 仍显示旧值 false，共享摘要已按实际报告更新；这项导出显示问题不改变正式预测或模型，也不作为重新评估的理由。
 
@@ -35,7 +35,7 @@ CSV 列为 `sample_id, condition_id, seed, true_label, predicted_label, predicti
 
 CLIP 行的 condition_id 为 clip_zero_shot，seed 留空；它只评估一次，不参与五条件 × 三 seed 的均值/标准差计算。原始 JSON 与 CSV 已核对，所有文件使用相同 10,000 个测试 ID 和真值，每类 1,000 张。
 
-## C 接下来交什么
+## 已验收的 C 交付及复算口径
 
 1. 从逐图预测重新计算每个 condition/seed 的 top-1 accuracy，并与原报告核对；结果不依赖报告中已经算好的数值。
 2. 五个训练条件分别报告三 seed 均值和样本标准差（ddof=1）；提升先按同 seed 减去 real_only，再转为百分点，报告三个提升的均值及标准差。

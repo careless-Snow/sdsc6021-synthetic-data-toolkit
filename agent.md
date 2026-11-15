@@ -72,7 +72,7 @@
 
 采用一个 Python CLI、一个配置文件和按 run_id 隔离的产物目录。先实现最小完整链路，再批跑；不另建 Web 服务或复杂工作流框架。
 
-当前 A 已实现 doctor、plan 和生成原型；doctor 的 CUDA 检查、plan 与六项协议检查通过，实际模型推理等待权重。以下是统一接口设计，其余阶段尚未实现或验证，实际状态只看 progress.md：
+当前 A 已实现 doctor、plan 和生成原型；doctor 的 CUDA 检查、plan 与六项协议检查通过，实际模型推理等待权重。B 另已接入 prepare/features/train 的真实基线与 `smoke --component b` 独立开发验证；C 与完整五条件链路仍待集成。以下为统一接口，实际状态只看 progress.md：
 
 ```text
 python code/toolkit.py doctor
@@ -80,6 +80,7 @@ python code/toolkit.py plan      --config configs/study.json
 python code/toolkit.py smoke     --config configs/study.json
 python code/toolkit.py generate  --config configs/study.json
 python code/toolkit.py select    --config configs/study.json
+python code/toolkit.py prepare   --config configs/study.json --smoke
 python code/toolkit.py features  --config configs/study.json
 python code/toolkit.py train     --config configs/study.json
 python code/toolkit.py evaluate  --config configs/study.json --final
@@ -101,8 +102,8 @@ AGENTS.md                   入口，仅指向两个主文档
 README.md                   团队入门导航，不重复项目规则与进度
 agent.md                    唯一规则、实验协议、内容框架
 progress.md                 唯一实际进度、证据与下一步
-configs/study.json          待实现：全部可执行参数
-code/toolkit.py             待实现：唯一 CLI，按阶段拆分辅助模块
+configs/study.json          草稿：全部可执行参数，G2 前不视为冻结
+code/toolkit.py             唯一 CLI；A/B 已部分实现，完整阶段仍待集成
 runs/<run_id>/              待生成：本次协议与产物，版本不混用
   protocol.json             配置快照、代码摘要和冻结状态
   environment.json          Python/包版本、设备和运行环境

@@ -41,3 +41,13 @@
 环境使用 Python 3.12.14。重建时用 Python 3.12 创建 .venv，再依次安装 requirements-gpu.txt（官方 cu128 索引）和 requirements.txt（其余固定版本）；pip 命令加 --disable-pip-version-check。本机安装曾复用已有 CUDA 分发包，详细复制和校验记录保留在本地 runs/_cache/。
 
 `doctor --models` 会下载并核验 SD1.5、CLIP 和 ResNet；本轮未完成该项。完整五条件 smoke、选择、特征和训练等阶段尚未集成，见 agent.md。
+
+## B 的独立开发验证
+
+B 已接入真实数据划分、四视图特征和真实基线训练。CPU 开发链路已实测；A 的生成阶段保持原有暂停状态，全组 G1/G2 仍未完整通过。使用与交接见 [B_handoff.md](report/B_handoff.md)，方法草稿见 [B_methods.md](report/B_methods.md)，实际结果见 progress.md。
+
+```text
+python code/toolkit.py smoke --component b --download --device cpu
+```
+
+本轮独立 CPU 环境使用 requirements-b-cpu.txt（Python 3.13.9）。它只用于 B 验证，不能覆盖 A 的 GPU 环境要求。开发集结果不是正式测试结果。

@@ -38,6 +38,7 @@ class ProtocolTests(unittest.TestCase):
         altered = copy.deepcopy(self.config)
         altered.update(protocol_status="frozen")
         altered["gates"]["g2_passed"] = True
+        altered["classifier"]["hyperparameters"] = None
         with self.assertRaises(ValueError):
             require_g2(altered)
 

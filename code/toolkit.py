@@ -1,4 +1,4 @@
-"""Single project CLI. G1 implements doctor, plan and generation smoke only."""
+"""Single project CLI: A diagnostics/generation and B real-only development baseline."""
 from __future__ import annotations
 
 import argparse
@@ -11,12 +11,17 @@ from a_protocol import ROOT, atomic_json, candidate_plan, config_hash, load_conf
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument("command", choices=["doctor", "plan", "generate", "smoke", "select", "features", "train", "evaluate", "summarize"])
+    parser.add_argument("command", choices=["doctor", "plan", "prepare", "generate", "smoke", "select", "features", "train", "evaluate", "summarize"])
     parser.add_argument("--config", default="configs/study.json")
     parser.add_argument("--models", action="store_true", help="doctor: download/load SD1.5, CLIP and ResNet, and test inference")
-    parser.add_argument("--smoke", action="store_true", help="generate: isolated small generation check, not the G2 full-pipeline smoke")
+    parser.add_argument("--smoke", action="store_true", help="isolated development mode for generate/prepare/features/train, not full G2")
     parser.add_argument("--limit", type=int, default=1, help="generate --smoke: maximum 10")
     parser.add_argument("--final", action="store_true", help="reserved for the final evaluation gate")
+    parser.add_argument("--component", choices=["b"], help="smoke: B-only check, not full G2")
+    parser.add_argument("--download", action="store_true", help="B: allow public CIFAR-10/ResNet weight downloads")
+    parser.add_argument("--device", choices=["cpu", "cuda"], default="cpu", help="B: explicit compute device")
+    parser.add_argument("--threads", type=int, default=4, help="B: CPU threads")
+    parser.add_argument("--batch-size", type=int, default=8, help="B: original images/batch (4 views each)")
     args = parser.parse_args()
     try:
         config = load_config(args.config)
@@ -30,6 +35,9 @@ def main() -> int:
             result = {"status": "planned", "candidate_images": len(plan["candidates"]),
                       "classifier_runs": len(plan["training_runs"]), "config_hash": fingerprint,
                       "plan": str(path.relative_to(ROOT)), "gpu_used": False, "models_downloaded": False}
+        elif args.command in {"prepare", "features", "train"} or (args.command == "smoke" and args.component == "b"):
+            from b_runtime import run_b
+            result = run_b(config, args)
         elif args.command in {"doctor", "generate"}:
             from a_runtime import doctor, generate
             result = doctor(config, models=args.models) if args.command == "doctor" else generate(config, smoke=args.smoke, limit=args.limit)

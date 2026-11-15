@@ -1,0 +1,58 @@
+{
+  "schema_version": 1,
+  "status": "success",
+  "stage": "B real-only development baseline",
+  "mode": "smoke",
+  "config_hash": "1f82272e31459a6da6c29aba37c69c75a4e73803aa1c00555ab08cfff1059108",
+  "results": [
+    {
+      "seed": 0,
+      "condition_id": "real_only",
+      "train_images": 160,
+      "dev_images": 40,
+      "optimizer_steps": 200,
+      "initial_loss": 2.399080276489258,
+      "last_loss": 0.041098181158304214,
+      "training_seconds": 0.08527299998968374,
+      "reload_verified": true,
+      "official_test_loaded": false,
+      "dev_accuracy": 0.7
+    },
+    {
+      "seed": 1,
+      "condition_id": "real_only",
+      "train_images": 160,
+      "dev_images": 40,
+      "optimizer_steps": 200,
+      "initial_loss": 2.5400309562683105,
+      "last_loss": 0.03953389450907707,
+      "training_seconds": 0.08753119999892078,
+      "reload_verified": true,
+      "official_test_loaded": false,
+      "dev_accuracy": 0.725
+    },
+    {
+      "seed": 2,
+      "condition_id": "real_only",
+      "train_images": 160,
+      "dev_images": 40,
+      "optimizer_steps": 200,
+      "initial_loss": 2.561049222946167,
+      "last_loss": 0.04012899845838547,
+      "training_seconds": 0.08116399998834822,
+      "reload_verified": true,
+      "official_test_loaded": false,
+      "dev_accuracy": 0.65
+    }
+  ],
+  "official_test_loaded": false,
+  "g1_complete": false,
+  "g2_complete": false,
+  "formal_results": false,
+  "remaining": [
+    "A model checks and candidate pool",
+    "C selection manifests",
+    "full five-condition smoke and protocol freeze",
+    "formal 15-model matrix"
+  ]
+}

@@ -1,0 +1,6019 @@
+{
+  "schema_version": 1,
+  "mode": "smoke",
+  "config_hash": "1f82272e31459a6da6c29aba37c69c75a4e73803aa1c00555ab08cfff1059108",
+  "class_mapping": {
+    "0": "airplane",
+    "1": "automobile",
+    "2": "bird",
+    "3": "cat",
+    "4": "deer",
+    "5": "dog",
+    "6": "frog",
+    "7": "horse",
+    "8": "ship",
+    "9": "truck"
+  },
+  "splits": [
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_31029",
+      "original_index": 31029,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_38083",
+      "original_index": 38083,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_44170",
+      "original_index": 44170,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_08515",
+      "original_index": 8515,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_34417",
+      "original_index": 34417,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_42852",
+      "original_index": 42852,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_02613",
+      "original_index": 2613,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_10340",
+      "original_index": 10340,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_48470",
+      "original_index": 48470,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_05973",
+      "original_index": 5973,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_11178",
+      "original_index": 11178,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_47379",
+      "original_index": 47379,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_15153",
+      "original_index": 15153,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_41040",
+      "original_index": 41040,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_01831",
+      "original_index": 1831,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_44568",
+      "original_index": 44568,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_19027",
+      "original_index": 19027,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_44426",
+      "original_index": 44426,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_00555",
+      "original_index": 555,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_32522",
+      "original_index": 32522,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_35757",
+      "original_index": 35757,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_26617",
+      "original_index": 26617,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_31957",
+      "original_index": 31957,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_46207",
+      "original_index": 46207,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_43167",
+      "original_index": 43167,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_23533",
+      "original_index": 23533,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_28585",
+      "original_index": 28585,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_13701",
+      "original_index": 13701,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_23504",
+      "original_index": 23504,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_34588",
+      "original_index": 34588,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_23864",
+      "original_index": 23864,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_11444",
+      "original_index": 11444,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_08559",
+      "original_index": 8559,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_47824",
+      "original_index": 47824,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_15172",
+      "original_index": 15172,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_33754",
+      "original_index": 33754,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_46858",
+      "original_index": 46858,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_45642",
+      "original_index": 45642,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_43457",
+      "original_index": 43457,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_43061",
+      "original_index": 43061,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_08411",
+      "original_index": 8411,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_44909",
+      "original_index": 44909,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_28849",
+      "original_index": 28849,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_17689",
+      "original_index": 17689,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_31941",
+      "original_index": 31941,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_29681",
+      "original_index": 29681,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_36025",
+      "original_index": 36025,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_45761",
+      "original_index": 45761,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_08280",
+      "original_index": 8280,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_01830",
+      "original_index": 1830,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_26549",
+      "original_index": 26549,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_48092",
+      "original_index": 48092,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_49093",
+      "original_index": 49093,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_20272",
+      "original_index": 20272,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_34414",
+      "original_index": 34414,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_46771",
+      "original_index": 46771,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_11202",
+      "original_index": 11202,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_36447",
+      "original_index": 36447,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_47742",
+      "original_index": 47742,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_25341",
+      "original_index": 25341,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_18679",
+      "original_index": 18679,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_34714",
+      "original_index": 34714,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_31886",
+      "original_index": 31886,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_24135",
+      "original_index": 24135,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_05192",
+      "original_index": 5192,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_20143",
+      "original_index": 20143,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_47722",
+      "original_index": 47722,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_49614",
+      "original_index": 49614,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_35307",
+      "original_index": 35307,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_21015",
+      "original_index": 21015,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_42783",
+      "original_index": 42783,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_48368",
+      "original_index": 48368,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_30361",
+      "original_index": 30361,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_13328",
+      "original_index": 13328,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_03550",
+      "original_index": 3550,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_12904",
+      "original_index": 12904,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_06045",
+      "original_index": 6045,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_19681",
+      "original_index": 19681,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_40378",
+      "original_index": 40378,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_49463",
+      "original_index": 49463,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_47403",
+      "original_index": 47403,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_31053",
+      "original_index": 31053,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_37075",
+      "original_index": 37075,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_44095",
+      "original_index": 44095,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_17635",
+      "original_index": 17635,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_05677",
+      "original_index": 5677,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_20137",
+      "original_index": 20137,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_39505",
+      "original_index": 39505,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_07283",
+      "original_index": 7283,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_10131",
+      "original_index": 10131,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_47318",
+      "original_index": 47318,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_07059",
+      "original_index": 7059,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_30425",
+      "original_index": 30425,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_41058",
+      "original_index": 41058,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_37602",
+      "original_index": 37602,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_03587",
+      "original_index": 3587,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_38353",
+      "original_index": 38353,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_36317",
+      "original_index": 36317,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_12132",
+      "original_index": 12132,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_42164",
+      "original_index": 42164,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_15450",
+      "original_index": 15450,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_05108",
+      "original_index": 5108,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_29631",
+      "original_index": 29631,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_03641",
+      "original_index": 3641,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_00919",
+      "original_index": 919,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_08496",
+      "original_index": 8496,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_04641",
+      "original_index": 4641,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_14987",
+      "original_index": 14987,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_36954",
+      "original_index": 36954,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_12053",
+      "original_index": 12053,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_11396",
+      "original_index": 11396,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_11575",
+      "original_index": 11575,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_29946",
+      "original_index": 29946,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_08412",
+      "original_index": 8412,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_15130",
+      "original_index": 15130,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_49845",
+      "original_index": 49845,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_31222",
+      "original_index": 31222,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_23173",
+      "original_index": 23173,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_21682",
+      "original_index": 21682,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_14931",
+      "original_index": 14931,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_40041",
+      "original_index": 40041,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_34965",
+      "original_index": 34965,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_20853",
+      "original_index": 20853,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_45164",
+      "original_index": 45164,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_15650",
+      "original_index": 15650,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_45524",
+      "original_index": 45524,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_11672",
+      "original_index": 11672,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_22266",
+      "original_index": 22266,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_18992",
+      "original_index": 18992,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_01807",
+      "original_index": 1807,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_08009",
+      "original_index": 8009,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_18270",
+      "original_index": 18270,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_09208",
+      "original_index": 9208,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_11429",
+      "original_index": 11429,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_48511",
+      "original_index": 48511,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_09084",
+      "original_index": 9084,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_11318",
+      "original_index": 11318,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_17448",
+      "original_index": 17448,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_02159",
+      "original_index": 2159,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_14414",
+      "original_index": 14414,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_47572",
+      "original_index": 47572,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_12476",
+      "original_index": 12476,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_14692",
+      "original_index": 14692,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_43215",
+      "original_index": 43215,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_38073",
+      "original_index": 38073,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_16467",
+      "original_index": 16467,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_42939",
+      "original_index": 42939,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_17837",
+      "original_index": 17837,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_48853",
+      "original_index": 48853,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_40318",
+      "original_index": 40318,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_43091",
+      "original_index": 43091,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_46228",
+      "original_index": 46228,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_04325",
+      "original_index": 4325,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_38236",
+      "original_index": 38236,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_31504",
+      "original_index": 31504,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_19408",
+      "original_index": 19408,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_33496",
+      "original_index": 33496,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_09711",
+      "original_index": 9711,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_46117",
+      "original_index": 46117,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_22942",
+      "original_index": 22942,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_11177",
+      "original_index": 11177,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_13582",
+      "original_index": 13582,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_08906",
+      "original_index": 8906,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_43895",
+      "original_index": 43895,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_45185",
+      "original_index": 45185,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_38901",
+      "original_index": 38901,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_03832",
+      "original_index": 3832,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_20617",
+      "original_index": 20617,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_09092",
+      "original_index": 9092,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_34315",
+      "original_index": 34315,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_45327",
+      "original_index": 45327,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_45338",
+      "original_index": 45338,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_11207",
+      "original_index": 11207,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_00008",
+      "original_index": 8,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_15328",
+      "original_index": 15328,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_32200",
+      "original_index": 32200,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_28295",
+      "original_index": 28295,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_01300",
+      "original_index": 1300,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_46453",
+      "original_index": 46453,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_08689",
+      "original_index": 8689,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_14525",
+      "original_index": 14525,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_28778",
+      "original_index": 28778,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_41089",
+      "original_index": 41089,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_22956",
+      "original_index": 22956,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_05395",
+      "original_index": 5395,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_02016",
+      "original_index": 2016,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_16602",
+      "original_index": 16602,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_39672",
+      "original_index": 39672,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_38778",
+      "original_index": 38778,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_24609",
+      "original_index": 24609,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_41363",
+      "original_index": 41363,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_31291",
+      "original_index": 31291,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_00076",
+      "original_index": 76,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_40050",
+      "original_index": 40050,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_16054",
+      "original_index": 16054,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_23397",
+      "original_index": 23397,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_29628",
+      "original_index": 29628,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_47020",
+      "original_index": 47020,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_02985",
+      "original_index": 2985,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 0,
+      "image_id": "cifar10_train_29721",
+      "original_index": 29721,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_06380",
+      "original_index": 6380,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_05414",
+      "original_index": 5414,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_01926",
+      "original_index": 1926,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_06947",
+      "original_index": 6947,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_44468",
+      "original_index": 44468,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_33416",
+      "original_index": 33416,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_16450",
+      "original_index": 16450,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_15866",
+      "original_index": 15866,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_39480",
+      "original_index": 39480,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_20035",
+      "original_index": 20035,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_43458",
+      "original_index": 43458,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_08023",
+      "original_index": 8023,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_28750",
+      "original_index": 28750,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_12960",
+      "original_index": 12960,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_12209",
+      "original_index": 12209,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_29927",
+      "original_index": 29927,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_03721",
+      "original_index": 3721,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_32874",
+      "original_index": 32874,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_44806",
+      "original_index": 44806,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_47754",
+      "original_index": 47754,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_25596",
+      "original_index": 25596,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_11971",
+      "original_index": 11971,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_22822",
+      "original_index": 22822,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_01605",
+      "original_index": 1605,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_30236",
+      "original_index": 30236,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_01242",
+      "original_index": 1242,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_26741",
+      "original_index": 26741,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_49643",
+      "original_index": 49643,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_44385",
+      "original_index": 44385,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_13242",
+      "original_index": 13242,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_09538",
+      "original_index": 9538,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_34429",
+      "original_index": 34429,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_29188",
+      "original_index": 29188,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_37937",
+      "original_index": 37937,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_07718",
+      "original_index": 7718,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_21080",
+      "original_index": 21080,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_37098",
+      "original_index": 37098,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_19760",
+      "original_index": 19760,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_38950",
+      "original_index": 38950,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_10298",
+      "original_index": 10298,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_37511",
+      "original_index": 37511,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_19916",
+      "original_index": 19916,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_14559",
+      "original_index": 14559,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_15118",
+      "original_index": 15118,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_43261",
+      "original_index": 43261,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_18952",
+      "original_index": 18952,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_01620",
+      "original_index": 1620,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_33911",
+      "original_index": 33911,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_05990",
+      "original_index": 5990,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_21885",
+      "original_index": 21885,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_12423",
+      "original_index": 12423,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_30315",
+      "original_index": 30315,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_08264",
+      "original_index": 8264,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_26957",
+      "original_index": 26957,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_15731",
+      "original_index": 15731,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_12924",
+      "original_index": 12924,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_49781",
+      "original_index": 49781,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_09803",
+      "original_index": 9803,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_41856",
+      "original_index": 41856,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_33564",
+      "original_index": 33564,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_14466",
+      "original_index": 14466,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_13439",
+      "original_index": 13439,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_11874",
+      "original_index": 11874,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_01048",
+      "original_index": 1048,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_25933",
+      "original_index": 25933,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_04108",
+      "original_index": 4108,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_48536",
+      "original_index": 48536,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_03787",
+      "original_index": 3787,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_43533",
+      "original_index": 43533,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_32541",
+      "original_index": 32541,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_41108",
+      "original_index": 41108,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_33159",
+      "original_index": 33159,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_04674",
+      "original_index": 4674,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_28190",
+      "original_index": 28190,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_20378",
+      "original_index": 20378,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_34835",
+      "original_index": 34835,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_31626",
+      "original_index": 31626,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_20252",
+      "original_index": 20252,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_31912",
+      "original_index": 31912,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_31844",
+      "original_index": 31844,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_02951",
+      "original_index": 2951,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_48707",
+      "original_index": 48707,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_14041",
+      "original_index": 14041,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_41402",
+      "original_index": 41402,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_21021",
+      "original_index": 21021,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_13832",
+      "original_index": 13832,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_35877",
+      "original_index": 35877,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_19142",
+      "original_index": 19142,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_16033",
+      "original_index": 16033,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_00816",
+      "original_index": 816,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_06509",
+      "original_index": 6509,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_27282",
+      "original_index": 27282,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_38014",
+      "original_index": 38014,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_10350",
+      "original_index": 10350,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_25346",
+      "original_index": 25346,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_47869",
+      "original_index": 47869,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_37576",
+      "original_index": 37576,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_04750",
+      "original_index": 4750,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_28072",
+      "original_index": 28072,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_17033",
+      "original_index": 17033,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_22119",
+      "original_index": 22119,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_15019",
+      "original_index": 15019,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_28286",
+      "original_index": 28286,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_26751",
+      "original_index": 26751,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_45705",
+      "original_index": 45705,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_36139",
+      "original_index": 36139,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_30085",
+      "original_index": 30085,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_07590",
+      "original_index": 7590,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_36126",
+      "original_index": 36126,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_37391",
+      "original_index": 37391,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_00040",
+      "original_index": 40,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_06642",
+      "original_index": 6642,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_27977",
+      "original_index": 27977,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_27903",
+      "original_index": 27903,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_02416",
+      "original_index": 2416,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_33757",
+      "original_index": 33757,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_09099",
+      "original_index": 9099,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_15861",
+      "original_index": 15861,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_26560",
+      "original_index": 26560,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_17495",
+      "original_index": 17495,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_38583",
+      "original_index": 38583,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_15060",
+      "original_index": 15060,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_41707",
+      "original_index": 41707,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_23680",
+      "original_index": 23680,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_11310",
+      "original_index": 11310,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_19128",
+      "original_index": 19128,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_07516",
+      "original_index": 7516,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_22328",
+      "original_index": 22328,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_10200",
+      "original_index": 10200,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_22004",
+      "original_index": 22004,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_27329",
+      "original_index": 27329,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_49056",
+      "original_index": 49056,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_22795",
+      "original_index": 22795,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_32690",
+      "original_index": 32690,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_09662",
+      "original_index": 9662,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_14392",
+      "original_index": 14392,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_38968",
+      "original_index": 38968,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_27602",
+      "original_index": 27602,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_46256",
+      "original_index": 46256,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_12550",
+      "original_index": 12550,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_44453",
+      "original_index": 44453,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_15070",
+      "original_index": 15070,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_11228",
+      "original_index": 11228,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_37884",
+      "original_index": 37884,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_49323",
+      "original_index": 49323,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_37744",
+      "original_index": 37744,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_37902",
+      "original_index": 37902,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_09223",
+      "original_index": 9223,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_01442",
+      "original_index": 1442,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_23456",
+      "original_index": 23456,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_42470",
+      "original_index": 42470,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_34864",
+      "original_index": 34864,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_03191",
+      "original_index": 3191,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_29124",
+      "original_index": 29124,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_15979",
+      "original_index": 15979,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_45745",
+      "original_index": 45745,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_26451",
+      "original_index": 26451,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_14446",
+      "original_index": 14446,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_34329",
+      "original_index": 34329,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_23296",
+      "original_index": 23296,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_26678",
+      "original_index": 26678,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_21226",
+      "original_index": 21226,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_19836",
+      "original_index": 19836,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_38045",
+      "original_index": 38045,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_34319",
+      "original_index": 34319,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_38835",
+      "original_index": 38835,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_07169",
+      "original_index": 7169,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_38987",
+      "original_index": 38987,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_36220",
+      "original_index": 36220,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_48569",
+      "original_index": 48569,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_12771",
+      "original_index": 12771,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_22374",
+      "original_index": 22374,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_21456",
+      "original_index": 21456,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_00870",
+      "original_index": 870,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_46395",
+      "original_index": 46395,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_05916",
+      "original_index": 5916,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_21026",
+      "original_index": 21026,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_34683",
+      "original_index": 34683,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_13929",
+      "original_index": 13929,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_03268",
+      "original_index": 3268,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_12404",
+      "original_index": 12404,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_32841",
+      "original_index": 32841,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_02199",
+      "original_index": 2199,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_36887",
+      "original_index": 36887,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_43910",
+      "original_index": 43910,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_33887",
+      "original_index": 33887,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_15420",
+      "original_index": 15420,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_17068",
+      "original_index": 17068,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_21300",
+      "original_index": 21300,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_25736",
+      "original_index": 25736,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_39855",
+      "original_index": 39855,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_14616",
+      "original_index": 14616,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_19805",
+      "original_index": 19805,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_02645",
+      "original_index": 2645,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_24550",
+      "original_index": 24550,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_28702",
+      "original_index": 28702,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_44391",
+      "original_index": 44391,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_15821",
+      "original_index": 15821,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_14059",
+      "original_index": 14059,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 1,
+      "image_id": "cifar10_train_23813",
+      "original_index": 23813,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_10267",
+      "original_index": 10267,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_31098",
+      "original_index": 31098,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_25267",
+      "original_index": 25267,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_47645",
+      "original_index": 47645,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_43909",
+      "original_index": 43909,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_14216",
+      "original_index": 14216,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_13716",
+      "original_index": 13716,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_16056",
+      "original_index": 16056,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_30257",
+      "original_index": 30257,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_23004",
+      "original_index": 23004,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_41855",
+      "original_index": 41855,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_00293",
+      "original_index": 293,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_12056",
+      "original_index": 12056,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_34417",
+      "original_index": 34417,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_30172",
+      "original_index": 30172,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_33214",
+      "original_index": 33214,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_05115",
+      "original_index": 5115,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_34040",
+      "original_index": 34040,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_07462",
+      "original_index": 7462,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_11431",
+      "original_index": 11431,
+      "official_partition": "train",
+      "class_id": 0,
+      "class_name": "airplane",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_09322",
+      "original_index": 9322,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_14048",
+      "original_index": 14048,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_35799",
+      "original_index": 35799,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_24625",
+      "original_index": 24625,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_06411",
+      "original_index": 6411,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_19095",
+      "original_index": 19095,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_34327",
+      "original_index": 34327,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_34358",
+      "original_index": 34358,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_16365",
+      "original_index": 16365,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_20368",
+      "original_index": 20368,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_12295",
+      "original_index": 12295,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_13044",
+      "original_index": 13044,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_11767",
+      "original_index": 11767,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_24480",
+      "original_index": 24480,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_19382",
+      "original_index": 19382,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_02569",
+      "original_index": 2569,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_18303",
+      "original_index": 18303,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_21474",
+      "original_index": 21474,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_13118",
+      "original_index": 13118,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_11007",
+      "original_index": 11007,
+      "official_partition": "train",
+      "class_id": 1,
+      "class_name": "automobile",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_27192",
+      "original_index": 27192,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_37143",
+      "original_index": 37143,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_28227",
+      "original_index": 28227,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_08333",
+      "original_index": 8333,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_39881",
+      "original_index": 39881,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_01122",
+      "original_index": 1122,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_21284",
+      "original_index": 21284,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_30405",
+      "original_index": 30405,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_13682",
+      "original_index": 13682,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_48482",
+      "original_index": 48482,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_12338",
+      "original_index": 12338,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_40020",
+      "original_index": 40020,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_02317",
+      "original_index": 2317,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_33175",
+      "original_index": 33175,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_23670",
+      "original_index": 23670,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_33291",
+      "original_index": 33291,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_23293",
+      "original_index": 23293,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_06177",
+      "original_index": 6177,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_31045",
+      "original_index": 31045,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_00283",
+      "original_index": 283,
+      "official_partition": "train",
+      "class_id": 2,
+      "class_name": "bird",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_38614",
+      "original_index": 38614,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_12988",
+      "original_index": 12988,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_07122",
+      "original_index": 7122,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_43633",
+      "original_index": 43633,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_39211",
+      "original_index": 39211,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_12050",
+      "original_index": 12050,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_27020",
+      "original_index": 27020,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_25570",
+      "original_index": 25570,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_35960",
+      "original_index": 35960,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_01938",
+      "original_index": 1938,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_06185",
+      "original_index": 6185,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_16791",
+      "original_index": 16791,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_32583",
+      "original_index": 32583,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_29038",
+      "original_index": 29038,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_06812",
+      "original_index": 6812,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_10857",
+      "original_index": 10857,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_23409",
+      "original_index": 23409,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_25254",
+      "original_index": 25254,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_25273",
+      "original_index": 25273,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_12342",
+      "original_index": 12342,
+      "official_partition": "train",
+      "class_id": 3,
+      "class_name": "cat",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_15399",
+      "original_index": 15399,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_01623",
+      "original_index": 1623,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_16889",
+      "original_index": 16889,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_39958",
+      "original_index": 39958,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_42109",
+      "original_index": 42109,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_14584",
+      "original_index": 14584,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_19043",
+      "original_index": 19043,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_20407",
+      "original_index": 20407,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_08784",
+      "original_index": 8784,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_48502",
+      "original_index": 48502,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_31393",
+      "original_index": 31393,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_24996",
+      "original_index": 24996,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_04910",
+      "original_index": 4910,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_27428",
+      "original_index": 27428,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_11550",
+      "original_index": 11550,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_07119",
+      "original_index": 7119,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_12307",
+      "original_index": 12307,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_21794",
+      "original_index": 21794,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_06314",
+      "original_index": 6314,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_45205",
+      "original_index": 45205,
+      "official_partition": "train",
+      "class_id": 4,
+      "class_name": "deer",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_44561",
+      "original_index": 44561,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_20083",
+      "original_index": 20083,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_46057",
+      "original_index": 46057,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_27869",
+      "original_index": 27869,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_11753",
+      "original_index": 11753,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_03005",
+      "original_index": 3005,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_46071",
+      "original_index": 46071,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_15074",
+      "original_index": 15074,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_03132",
+      "original_index": 3132,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_13356",
+      "original_index": 13356,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_08621",
+      "original_index": 8621,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_20322",
+      "original_index": 20322,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_35640",
+      "original_index": 35640,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_40572",
+      "original_index": 40572,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_37720",
+      "original_index": 37720,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_07189",
+      "original_index": 7189,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_37541",
+      "original_index": 37541,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_01206",
+      "original_index": 1206,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_34728",
+      "original_index": 34728,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_48477",
+      "original_index": 48477,
+      "official_partition": "train",
+      "class_id": 5,
+      "class_name": "dog",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_26089",
+      "original_index": 26089,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_26413",
+      "original_index": 26413,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_25932",
+      "original_index": 25932,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_15458",
+      "original_index": 15458,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_18851",
+      "original_index": 18851,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_22709",
+      "original_index": 22709,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_41515",
+      "original_index": 41515,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_14604",
+      "original_index": 14604,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_32739",
+      "original_index": 32739,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_23208",
+      "original_index": 23208,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_20717",
+      "original_index": 20717,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_42584",
+      "original_index": 42584,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_07252",
+      "original_index": 7252,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_03724",
+      "original_index": 3724,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_35458",
+      "original_index": 35458,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_24897",
+      "original_index": 24897,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_14163",
+      "original_index": 14163,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_14873",
+      "original_index": 14873,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_30130",
+      "original_index": 30130,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_17742",
+      "original_index": 17742,
+      "official_partition": "train",
+      "class_id": 6,
+      "class_name": "frog",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_27189",
+      "original_index": 27189,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_32668",
+      "original_index": 32668,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_28073",
+      "original_index": 28073,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_23204",
+      "original_index": 23204,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_39421",
+      "original_index": 39421,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_39351",
+      "original_index": 39351,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_04357",
+      "original_index": 4357,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_44111",
+      "original_index": 44111,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_01226",
+      "original_index": 1226,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_13147",
+      "original_index": 13147,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_27849",
+      "original_index": 27849,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_02392",
+      "original_index": 2392,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_36369",
+      "original_index": 36369,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_27913",
+      "original_index": 27913,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_28152",
+      "original_index": 28152,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_34357",
+      "original_index": 34357,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_29370",
+      "original_index": 29370,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_10623",
+      "original_index": 10623,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_30167",
+      "original_index": 30167,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_10684",
+      "original_index": 10684,
+      "official_partition": "train",
+      "class_id": 7,
+      "class_name": "horse",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_01383",
+      "original_index": 1383,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_14823",
+      "original_index": 14823,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_13695",
+      "original_index": 13695,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_20221",
+      "original_index": 20221,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_35864",
+      "original_index": 35864,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_10120",
+      "original_index": 10120,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_18565",
+      "original_index": 18565,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_28230",
+      "original_index": 28230,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_04617",
+      "original_index": 4617,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_30071",
+      "original_index": 30071,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_32394",
+      "original_index": 32394,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_24095",
+      "original_index": 24095,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_48481",
+      "original_index": 48481,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_26198",
+      "original_index": 26198,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_17210",
+      "original_index": 17210,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_19238",
+      "original_index": 19238,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_19656",
+      "original_index": 19656,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_01404",
+      "original_index": 1404,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_14648",
+      "original_index": 14648,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_00566",
+      "original_index": 566,
+      "official_partition": "train",
+      "class_id": 8,
+      "class_name": "ship",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_10659",
+      "original_index": 10659,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_31986",
+      "original_index": 31986,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_18642",
+      "original_index": 18642,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_41276",
+      "original_index": 41276,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_16369",
+      "original_index": 16369,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_45766",
+      "original_index": 45766,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_12827",
+      "original_index": 12827,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_04069",
+      "original_index": 4069,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_33665",
+      "original_index": 33665,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_22756",
+      "original_index": 22756,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_32245",
+      "original_index": 32245,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_44449",
+      "original_index": 44449,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_25630",
+      "original_index": 25630,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_16707",
+      "original_index": 16707,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_43652",
+      "original_index": 43652,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_21212",
+      "original_index": 21212,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "train"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_23647",
+      "original_index": 23647,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_11597",
+      "original_index": 11597,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_46278",
+      "original_index": 46278,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "dev"
+    },
+    {
+      "schema_version": 1,
+      "split_seed": 2,
+      "image_id": "cifar10_train_44010",
+      "original_index": 44010,
+      "official_partition": "train",
+      "class_id": 9,
+      "class_name": "truck",
+      "split": "dev"
+    }
+  ]
+}

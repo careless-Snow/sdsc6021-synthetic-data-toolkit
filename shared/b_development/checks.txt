@@ -1,0 +1,21 @@
+test_cache_fingerprint_is_order_independent_but_parameter_sensitive (test_a_protocol.ProtocolTests.test_cache_fingerprint_is_order_independent_but_parameter_sensitive) ... ok
+test_config_rejects_changed_class_order_and_unfrozen_bn (test_a_protocol.ProtocolTests.test_config_rejects_changed_class_order_and_unfrozen_bn) ... ok
+test_full_generation_rejects_draft_and_unfrozen_classifier (test_a_protocol.ProtocolTests.test_full_generation_rejects_draft_and_unfrozen_classifier) ... ok
+test_paths_cannot_escape_their_run_root (test_a_protocol.ProtocolTests.test_paths_cannot_escape_their_run_root) ... ok
+test_plan_preserves_paired_matrix_and_unique_candidate_rng (test_a_protocol.ProtocolTests.test_plan_preserves_paired_matrix_and_unique_candidate_rng) ... ok
+test_resume_rejects_tampered_image_and_mismatched_config (test_a_protocol.ProtocolTests.test_resume_rejects_tampered_image_and_mismatched_config) ... ok
+test_c_selection_requires_correct_counts_labels_ranks_and_nesting (test_b_protocol.BProtocolTests.test_c_selection_requires_correct_counts_labels_ranks_and_nesting) ... ok
+test_cache_invalidates_image_preprocessing_split_and_backbone_changes (test_b_protocol.BProtocolTests.test_cache_invalidates_image_preprocessing_split_and_backbone_changes) ... ok
+test_feature_checksum_failure_is_not_a_cache_hit (test_b_protocol.BProtocolTests.test_feature_checksum_failure_is_not_a_cache_hit) ... ok
+test_formal_stage_is_blocked_until_g2 (test_b_protocol.BProtocolTests.test_formal_stage_is_blocked_until_g2) ... ok
+test_group_weight_does_not_depend_on_synthetic_count_and_matches_gradient (test_b_protocol.BProtocolTests.test_group_weight_does_not_depend_on_synthetic_count_and_matches_gradient) ... ok
+test_invalid_labels_and_short_classes_are_rejected (test_b_protocol.BProtocolTests.test_invalid_labels_and_short_classes_are_rejected) ... ok
+test_paired_initialization_fixed_update_budget_and_reload (test_b_protocol.BProtocolTests.test_paired_initialization_fixed_update_budget_and_reload) ... ok
+test_real_manifest_rejects_leakage_label_errors_and_wrong_mode (test_b_protocol.BProtocolTests.test_real_manifest_rejects_leakage_label_errors_and_wrong_mode) ... ok
+test_splits_are_balanced_reproducible_and_dev_uses_same_twenty (test_b_protocol.BProtocolTests.test_splits_are_balanced_reproducible_and_dev_uses_same_twenty) ... ok
+test_views_are_reproducible_and_restore_rng_state (test_b_protocol.BProtocolTests.test_views_are_reproducible_and_restore_rng_state) ... ok
+
+----------------------------------------------------------------------
+Ran 16 tests in 2.539s
+
+OK

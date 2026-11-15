@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "mode": "smoke",
+  "config_hash": "1f82272e31459a6da6c29aba37c69c75a4e73803aa1c00555ab08cfff1059108",
+  "config": {
+    "schema_version": 1,
+    "protocol_version": "0.1-draft",
+    "protocol_status": "draft",
+    "run_id": "synthetic_v1",
+    "dataset": {
+      "name": "CIFAR10",
+      "classes": [
+        "airplane",
+        "automobile",
+        "bird",
+        "cat",
+        "deer",
+        "dog",
+        "frog",
+        "horse",
+        "ship",
+        "truck"
+      ],
+      "real_per_class": 20,
+      "split_seeds": [
+        0,
+        1,
+        2
+      ]
+    },
+    "generation": {
+      "model_id": "stable-diffusion-v1-5/stable-diffusion-v1-5",
+      "revision": "451f4fe16113bff5a5d2269ed5ad43b0592e9a14",
+      "variant": "fp16",
+      "dtype": "float16",
+      "width": 512,
+      "height": 512,
+      "scheduler": "DPMSolverMultistepScheduler",
+      "solver_order": 2,
+      "algorithm_type": "dpmsolver++",
+      "use_karras_sigmas": false,
+      "steps": 20,
+      "guidance_scale": 6.0,
+      "prompt_template": "a photo of a {class_name}.",
+      "negative_prompt": "",
+      "candidates_per_class": 200,
+      "seed_base": 20261115,
+      "generator_device": "cpu"
+    },
+    "selection": {
+      "sizes": [
+        50,
+        150
+      ],
+      "random_seed": 20261116
+    },
+    "clip": {
+      "model_id": "openai/clip-vit-base-patch32",
+      "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+      "text_template": "a photo of a {class_name}."
+    },
+    "classifier": {
+      "architecture": "resnet18",
+      "weights": "IMAGENET1K_V1",
+      "freeze_backbone": true,
+      "freeze_batchnorm": true,
+      "train_views": 4,
+      "synthetic_loss_weight": 0.5,
+      "hyperparameters": {
+        "optimizer": "SGD",
+        "learning_rate": 0.1,
+        "weight_decay": 0.0001,
+        "momentum": 0,
+        "steps": 200,
+        "batch_policy": "full_batch_equal_source_weight"
+      },
+      "feature_normalization": "none",
+      "view_parameters": {
+        "base_resize": 256,
+        "crop_size": 224,
+        "scale": [
+          0.8,
+          1.0
+        ],
+        "ratio": [
+          0.75,
+          1.3333333333333333
+        ],
+        "horizontal_flip_probability": 0.5,
+        "augmentation_seeds": [
+          1101,
+          1102,
+          1103
+        ]
+      },
+      "implementation_version": "b-development-v2"
+    },
+    "gates": {
+      "g2_passed": false
+    }
+  },
+  "b_source_sha256": {
+    "b_protocol.py": "571aff437ebde92ddf000b35f99cde50c0a2046ce01074fc511a30635f7f3f84",
+    "b_runtime.py": "5a8a8d3209640c18c37aa9f67e4cfdf61f7e8b608ef055a54241f5b4cb1d89ee",
+    "toolkit.py": "3536498544aeff08261e50499933d2c3e84fe9a0ab5f9775c9a3f74957df7d4b"
+  },
+  "packages": {
+    "torch": "2.9.1+cpu",
+    "torchvision": "0.24.1+cpu",
+    "numpy": "2.5.4",
+    "pillow": "13.0.0"
+  },
+  "python": "3.13.9"
+}

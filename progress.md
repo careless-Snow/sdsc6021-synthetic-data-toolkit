@@ -40,7 +40,7 @@
 
 2026-11-16 验收 C 的 [PR #4](https://github.com/kanekikenny/sdsc6021-synthetic-data-toolkit/pull/4)（blacksheep429，提交 e29655f）：9 个脚本全部实际复跑退出0；4份CSV内容与提交一致，4张重生成PNG逐像素一致，英文报告与结果/范围核对通过。绘图依赖只放独立分析目录，正式环境、模型和G4预测未改动，未重跑推理。成果已合并，见 [分析入口](shared/synthetic_v2/c_evaluation/README.md)和[验收记录](shared/synthetic_v2/audits/c_pr4_acceptance.json)。C 的主实验统计交付完成，D 统稿/展示及真人验证继续。
 
-2026-11-16 接收用户填写的首份100图标注：100条均为correct，30条非空note；无漏填、无效值、编号/类别/路径改动。原Excel按SHA归档于本地运行审计目录；[逐行CSV](shared/synthetic_v2/audits/human_annotations/annotator_1.csv)保留原判断和备注，[接收记录](shared/synthetic_v2/audits/human_annotations/annotator_1_intake.json)记录来源及校验。类别可辨不等于结构正常，备注数也不等于全部缺陷数。第二份本地表仍空白，未计算双人一致率；用时未提供，非作者试用未收到。另已浏览全部100张候选图，按用户要求在其本地说明.md补充note填写示例与判断边界；[共享说明](shared/synthetic_v2/audits/human_annotations/说明.md)为同内容副本，不改原标注、图片、训练输入或正式预测。
+2026-11-16 接收用户填写的首份100图标注：100条均为correct，30条非空note；无漏填、无效值、编号/类别/路径改动。原Excel按SHA归档于本地运行审计目录；[逐行CSV](shared/synthetic_v2/audits/human_annotations/annotator_1.csv)保留原判断和备注，[接收记录](shared/synthetic_v2/audits/human_annotations/annotator_1_intake.json)记录来源及校验。类别可辨不等于结构正常，备注数也不等于全部缺陷数。用户随后补充：标注者代号A，标注日期2026-11-16，用时约30分钟；按用户报告保留近似用时，不解释为精确计时。第二份标注仍待接收，未计算双人一致率；非作者试用未收到。另已浏览全部100张候选图，按用户要求在其本地说明.md补充note填写示例与判断边界；[共享说明](shared/synthetic_v2/audits/human_annotations/说明.md)为同内容副本，不改原标注、图片、训练输入或正式预测。
 
 ## 队友现在需要做什么
 

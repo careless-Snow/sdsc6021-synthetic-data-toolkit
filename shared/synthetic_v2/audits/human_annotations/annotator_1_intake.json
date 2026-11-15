@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "run_id": "synthetic_v2",
+  "status": "one_annotator_received_second_pending",
+  "received_utc": "2026-11-15T22:55:46.127195+00:00",
+  "config_hash": "5380e7f962bb3646c6ff81148dd3d3ff2f96d1af97f008a774454af03eacd5ad",
+  "packet_sha256": "1c12360f61baf1beaf8af2f878900db751a8e5f79b7d09c8d3c49b5d39c0f85b",
+  "annotator_id": "annotator_1",
+  "contributor_role": "project user / work package A",
+  "elapsed_minutes": null,
+  "original_workbook_name": "annotator_1.xlsx",
+  "original_workbook_sha256": "a7903fc460b5bf875f60b27ba2f1d1567b5fd16a522a615ca956523129446530",
+  "local_original_archive": "runs/synthetic_v2/audits/human_annotation_intake/20261115T225546_127195Z/annotator_1.xlsx",
+  "csv_relative_path": "shared/synthetic_v2/audits/human_annotations/annotator_1.csv",
+  "csv_sha256": "067f1d2d63103d6500d48f8fb7fafde8255c6725a3ecaa9db4356aa930c08710",
+  "rows": 100,
+  "judgment_counts": {
+    "correct": 100,
+    "wrong": 0,
+    "uncertain": 0
+  },
+  "notes_nonempty": 30,
+  "per_class": {
+    "frog": {
+      "correct": 10
+    },
+    "ship": {
+      "correct": 10
+    },
+    "airplane": {
+      "correct": 10
+    },
+    "bird": {
+      "correct": 10
+    },
+    "deer": {
+      "correct": 10
+    },
+    "cat": {
+      "correct": 10
+    },
+    "automobile": {
+      "correct": 10
+    },
+    "truck": {
+      "correct": 10
+    },
+    "horse": {
+      "correct": 10
+    },
+    "dog": {
+      "correct": 10
+    }
+  },
+  "validation": {
+    "all_original_505_cells_read": true,
+    "all_judgments_valid_and_complete": true,
+    "ids_classes_and_paths_match_original_packet": true,
+    "unique_blind_ids": 100,
+    "original_judgments_and_notes_preserved": true,
+    "source_workbook_unchanged": true
+  },
+  "second_annotator": {
+    "status": "not_received",
+    "local_workbook_filled_rows": 0
+  },
+  "inter_annotator_agreement": null,
+  "non_author_trial_status": "not_received",
+  "interpretation": "These judgments measure target-class recognizability in the sampled candidates; correct does not mean anatomically or geometrically flawless. Notes are optional and their count is not an exhaustive defect rate. This is one annotator only; no inter-annotator agreement is available. Formal training inputs and G4 predictions are unchanged."
+}

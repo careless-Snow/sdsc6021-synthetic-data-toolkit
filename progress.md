@@ -2,7 +2,7 @@
 
 > 唯一实际进度记录；项目定义、实验协议、验收与内容框架统一见 [agent.md](agent.md)。
 
-更新日期：2026-11-16（Asia/Singapore）。当前阶段：**G4 正式评估及预测交接完成；15 个封存分类器和一次 CLIP 参考共 160,000 条官方测试预测，约 4 MB 的 CSV/JSON 与运行记录包已公开并完整下载核验。C 的正式预测独立统计、4 表、4 图及英文结果报告已验收并合并；真人标注、非作者试用和最终统稿/展示待完成。B #3 与 C #2 已合并，文档冲突已整合，21 项协议检查和两个 C 审计脚本通过；旧 B #1 保持关闭未合并**。
+更新日期：2026-11-16（Asia/Singapore）。当前阶段：**G4 正式评估及预测交接完成；15 个封存分类器和一次 CLIP 参考共 160,000 条官方测试预测，约 4 MB 的 CSV/JSON 与运行记录包已公开并完整下载核验。C 的正式预测独立统计、4 表、4 图及英文结果报告已验收并合并；首位标注者的100图判断已接收；第二位标注、非作者试用和最终统稿/展示待完成。B #3 与 C #2 已合并，文档冲突已整合，21 项协议检查和两个 C 审计脚本通过；旧 B #1 保持关闭未合并**。
 
 ## 当前状态
 
@@ -21,6 +21,7 @@
 | G2 五个分类头 | 完成 | real_only/random_1/random_2/clip_1/clip_2，seed=0，每个 500 次更新；相同初始状态与真实批次，保存重载预测完全一致；权重仅在本地，GitHub 提供索引与 SHA-256 |
 | 15 个正式模型与最终评估 | 正式评估完成 | 15 个原封存模型和一次 CLIP 参考均评估官方 10000 图；16 份原始预测、共 160000 行；SHA、ID、标签一致，逐条件/分类别准确率及配对统计已从预测复算核对；[G4 入口](shared/synthetic_v2/g4/README.md) |
 | A 交接包 | 完成，已公开交付 | 十个图片 ZIP、便携训练包和 100 图盲化抽查包；共 16 附件、962474961 字节，服务端 SHA-256 全匹配；全部匿名访问成功，训练包完整下载哈希一致；[交接入口](shared/synthetic_v2/README.md) |
+| 真人标注 | 首位100图已接收；第二份待接收 | correct=100、wrong=0、uncertain=0，30条备注；原Excel保留，编号/类别/路径和所有填写内容逐项核对；[接收记录](shared/synthetic_v2/audits/human_annotations/annotator_1_intake.json) |
 | 报告与展示 | C 结果分析已验收；全文定稿与展示待完成 | report/C_results_evaluation.md、4 张图与4份CSV已合并，核心结果已纳入 technical_report.md；D 后续统稿，真人验证不虚填 |
 | GitHub | 已公开，可直接查看和克隆 | [项目仓库](https://github.com/kanekikenny/sdsc6021-synthetic-data-toolkit)，分支 main；已核验 private=false、未登录读取 README 返回 200；未授予额外直接写入权限 |
 
@@ -31,13 +32,15 @@
 3. G3 已依次完成 generate/select/features/train/summarize；[验收摘要](shared/synthetic_v2/check.json)、[封存清单](shared/synthetic_v2/models/frozen.json)、[还原核验](shared/synthetic_v2/handoff_restore_check.json) 有实际证据。
 4. A 的 GitHub 交接完成：[公开 Release](https://github.com/kanekikenny/sdsc6021-synthetic-data-toolkit/releases/tag/g3-synthetic-v2-v0.4)。队友从 [交接说明](shared/synthetic_v2/README.md) 取所需文件；[附件索引](shared/synthetic_v2/release_assets.json)和[匿名下载证明](shared/synthetic_v2/public_download_check.json)保存实际地址、哈希及检查记录。当前工程与生成范围无待运行作业。
 5. 用户本轮明确要求运行 G4 并向 C 同步预测与运行记录；已于 2026-11-15 21:34–21:38 +08:00 在 A 的 GPU 上完成，CLI 墙钟 221.52 秒，评估器内部 219.36 秒。原模型封存 SHA 未变，测试只使用基础视图；[结果与校验](shared/synthetic_v2/g4/README.md)包含完整 CSV/JSON、硬件/包版本、命令、时间、退出码和哈希。
-6. [G4 Release](https://github.com/kanekikenny/sdsc6021-synthetic-data-toolkit/releases/tag/g4-official-evaluation-v0.4)已公开；预测包和校验清单均经未登录完整下载、SHA-256 核对。[交付索引](shared/synthetic_v2/g4/delivery.json)与[下载证明](shared/synthetic_v2/g4/public_download_check.json)保存实际位置。C 已完成独立统计与图表，并以 PR #4 交付；两人标注及非作者试用仍待用户安排。
+6. [G4 Release](https://github.com/kanekikenny/sdsc6021-synthetic-data-toolkit/releases/tag/g4-official-evaluation-v0.4)已公开；预测包和校验清单均经未登录完整下载、SHA-256 核对。[交付索引](shared/synthetic_v2/g4/delivery.json)与[下载证明](shared/synthetic_v2/g4/public_download_check.json)保存实际位置。C 已完成独立统计与图表，并以 PR #4 交付；首位标注者已提交100图判断；第二份标注及非作者试用仍待接收。
 7. [C 的 PR #2](https://github.com/kanekikenny/sdsc6021-synthetic-data-toolkit/pull/2)（blacksheep429）中两个精确审计脚本已在 A 复跑通过。[B 的新 PR #3](https://github.com/kanekikenny/sdsc6021-synthetic-data-toolkit/pull/3)（careless-Snow）已对齐冻结 0.4，替代后来关闭未合并的旧 PR #1；报告了独立重算 15 头、3000 条训练参考预测一致及 CPU/GPU 特征超出原定严格阈值的发现。本轮检查范围、原阈值和限制见 [PR 记录](shared/synthetic_v2/audits/pr_review_20261115.json)；这些独立复核改动未用于原 G4 执行；用户随后要求合并，本轮已将 PR #2/#3 整合进主分支，正式代码、配置、模型和预测未变。
 8. A 仅用 seed0 原始第一完整批次（8 张训练图、32 视图）做独立诊断：默认 GPU 路径逐位复现封存缓存；CPU 最大差约 1.02e-4；仅在诊断进程关闭 cuDNN TF32 后，GPU 与 CPU 最大差约 7.45e-7。[数值证据与后端开关](shared/synthetic_v2/audits/b_pr3_precision_diagnostic.json)支持该样本上的后端精度解释，不把 B 全量严格匹配改判为通过，不外推测试集一致性。封存模型、特征和 G4 指针未变，未重跑正式测试。
 
 用户已要求合并 PR：B #3 的三个进度文档冲突块已保留最新 G4 状态并整合 B 复核；C #2 的三个新增文件已纳入。原始 B 数值 JSON/阈值/失败记录保持逐字节一致；21 项协议检查、两个 C 脚本、冻结模型与 16 份正式预测哈希检查均通过。[合并验收](shared/synthetic_v2/audits/team_merge_checks.json)。
 
 2026-11-16 验收 C 的 [PR #4](https://github.com/kanekikenny/sdsc6021-synthetic-data-toolkit/pull/4)（blacksheep429，提交 e29655f）：9 个脚本全部实际复跑退出0；4份CSV内容与提交一致，4张重生成PNG逐像素一致，英文报告与结果/范围核对通过。绘图依赖只放独立分析目录，正式环境、模型和G4预测未改动，未重跑推理。成果已合并，见 [分析入口](shared/synthetic_v2/c_evaluation/README.md)和[验收记录](shared/synthetic_v2/audits/c_pr4_acceptance.json)。C 的主实验统计交付完成，D 统稿/展示及真人验证继续。
+
+2026-11-16 接收用户填写的首份100图标注：100条均为correct，30条非空note；无漏填、无效值、编号/类别/路径改动。原Excel按SHA归档于本地运行审计目录；[逐行CSV](shared/synthetic_v2/audits/human_annotations/annotator_1.csv)保留原判断和备注，[接收记录](shared/synthetic_v2/audits/human_annotations/annotator_1_intake.json)记录来源及校验。类别可辨不等于结构正常，备注数也不等于全部缺陷数。第二份本地表仍空白，未计算双人一致率；用时未提供，非作者试用未收到。另已浏览全部100张候选图，按用户要求在其本地说明.md补充note填写示例与判断边界；[共享说明](shared/synthetic_v2/audits/human_annotations/说明.md)为同内容副本，不改原标注、图片、训练输入或正式预测。
 
 ## 队友现在需要做什么
 
@@ -49,8 +52,8 @@
 |---|---|---|---|
 | A 工程与生成 | 已完成的本机环境、正式运行和公开 Release | G4 运行及正式预测交接已完成；继续维护交接与工程支持，核对本人报告章节和演示。当前没有待生成图片、待训练分类头或待执行正式评估 | 当前 GPU 电脑；文档协作通过本仓库 |
 | B 数据与分类 | 已取得的 training_bundle.zip（约 30 MB）和当前协议；本轮 A 的训练特征精度诊断 | PR #3 的 0.4 独立复核及方法稿已整合；原严格阈值未通过的发现保留，报告已补充 A 的有限训练样本诊断及当前 G4 状态，后续配合 D 统稿 | 自己的 CPU/CUDA 电脑做独立复核；A 的诊断输出单独保存，没有替换正式缓存 |
-| C 选择与评估 | [G4 正式预测包](shared/synthetic_v2/g4/README.md)（约 4 MB）及已有 G3 阶段成本；原选择和公式审计见 PR #2 | PR #4 已交付并验收：16万预测独立核验、三seed统计与直接对比、分类别及成本分析、9脚本、4图、4CSV和英文结果稿；接下来配合 D 统稿和展示，后续真人标注结果若产生再补入 | 正式预测已在 A GPU 产生；接下来的统计、画图和写作在自己的电脑即可完成，无需 CUDA |
-| D 产品与交付 | 方法/相关工作草稿、交接说明、label_audit_packet.zip 及非作者试用空白模板 | 核实用户需求和文献；配合用户安排两位独立标注者及一位非作者试用，保留真实过程和结果；汇总各成员章节、完成最终报告、展示与实际贡献表，核实课程格式及全员到场 | 文献、标注、写作在各自电脑；完整 CLI 非作者试用按协议使用 A 已准备好的 GPU 环境并预约空闲队列 |
+| C 选择与评估 | [G4 正式预测包](shared/synthetic_v2/g4/README.md)（约 4 MB）及已有 G3 阶段成本；原选择和公式审计见 PR #2 | PR #4 已交付并验收：16万预测独立核验、三seed统计与直接对比、分类别及成本分析、9脚本、4图、4CSV和英文结果稿；接下来配合 D 统稿和展示，首位100图标注已收到，可读取原始CSV；第二份到齐后再计算一致率 | 正式预测已在 A GPU 产生；接下来的统计、画图和写作在自己的电脑即可完成，无需 CUDA |
+| D 产品与交付 | 方法/相关工作草稿、交接说明、label_audit_packet.zip 及非作者试用空白模板 | 核实用户需求和文献；配合用户收齐第二位标注者的结果及一位非作者试用记录；首位标注已接收，保留真实过程和结果；汇总各成员章节、完成最终报告、展示与实际贡献表，核实课程格式及全员到场 | 文献、标注、写作在各自电脑；完整 CLI 非作者试用按协议使用 A 已准备好的 GPU 环境并预约空闲队列 |
 
 - B/C 不需要各自安装 SD 或复制整套模型缓存。便携特征可用 NumPy 读取，分类头可用 CPU PyTorch 加载；具体下载、校验和示例见 [G3 交接说明](shared/synthetic_v2/README.md)。
 - 正式 CLI 绑定冻结源码与包版本，不能把换成 CPU 依赖后的完整环境当作同一个正式运行。CPU 独立复核注明环境差异；原封存运行不覆盖、不改参数，也不根据测试结果重新选图或重训。

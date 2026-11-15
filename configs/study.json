@@ -5,9 +5,24 @@
   "run_id": "synthetic_v1",
   "dataset": {
     "name": "CIFAR10",
-    "classes": ["airplane", "automobile", "bird", "cat", "deer", "dog", "frog", "horse", "ship", "truck"],
+    "classes": [
+      "airplane",
+      "automobile",
+      "bird",
+      "cat",
+      "deer",
+      "dog",
+      "frog",
+      "horse",
+      "ship",
+      "truck"
+    ],
     "real_per_class": 20,
-    "split_seeds": [0, 1, 2]
+    "split_seeds": [
+      0,
+      1,
+      2
+    ]
   },
   "generation": {
     "model_id": "stable-diffusion-v1-5/stable-diffusion-v1-5",
@@ -28,7 +43,13 @@
     "seed_base": 20261115,
     "generator_device": "cpu"
   },
-  "selection": {"sizes": [50, 150], "random_seed": 20261116},
+  "selection": {
+    "sizes": [
+      50,
+      150
+    ],
+    "random_seed": 20261116
+  },
   "clip": {
     "model_id": "openai/clip-vit-base-patch32",
     "revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
@@ -41,7 +62,36 @@
     "freeze_batchnorm": true,
     "train_views": 4,
     "synthetic_loss_weight": 0.5,
-    "hyperparameters": null
+    "hyperparameters": {
+      "optimizer": "SGD",
+      "learning_rate": 0.1,
+      "weight_decay": 0.0001,
+      "momentum": 0,
+      "steps": 200,
+      "batch_policy": "full_batch_equal_source_weight"
+    },
+    "feature_normalization": "none",
+    "view_parameters": {
+      "base_resize": 256,
+      "crop_size": 224,
+      "scale": [
+        0.8,
+        1.0
+      ],
+      "ratio": [
+        0.75,
+        1.3333333333333333
+      ],
+      "horizontal_flip_probability": 0.5,
+      "augmentation_seeds": [
+        1101,
+        1102,
+        1103
+      ]
+    },
+    "implementation_version": "b-development-v2"
   },
-  "gates": {"g2_passed": false}
+  "gates": {
+    "g2_passed": false
+  }
 }

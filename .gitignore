@@ -30,6 +30,8 @@ venv/
 
 # 本机课程材料与资料摘录，不属于团队项目源码
 DSC6021_Final_Project_总结.md
+# 用户指定不再共享的教学性报告草稿
+/report/technical_report.md
 *.pdf
 # 项目自己的最终报告 PDF 可以作为交付文件共享
 !report/*.pdf
